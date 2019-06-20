@@ -2,7 +2,7 @@ GraphQL Python Example
 =======================
 
 This project demostrates how to implement GraphQL in Python using Graphene.
-For simplicity we are using Nameko framework we will be using [nameko](https://github.com/nameko/nameko) as an example, but you can get rid of `service.py`
+For simplicity we will be using [nameko](https://github.com/nameko/nameko) as an example, but you can get rid of `service.py` and use a web framework of choice.
 
 The project contains three models, one named `Department`, `Role` and another
 named `Employee`.
