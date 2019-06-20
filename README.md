@@ -1,25 +1,22 @@
-Example Nameko+Graphene-SQLAlchemy Project
-================================
+GraphQL Python Example
+=======================
 
-This example is for those who are not using frameworks like Flask | Django which already have a View wrapper implemented to handle graphql request and response accordingly
+This project demostrates how to implement GraphQL in Python using Graphene.
+For simplicity we are using Nameko framework we will be using [nameko](https://github.com/nameko/nameko) as an example, but you can get rid of `service.py`
 
-If you need a [graphiql](https://github.com/graphql/graphiql) interface on your application, kindly look at [flask_sqlalchemy](../flask_sqlalchemy).
-
-Using [nameko](https://github.com/nameko/nameko) as an example, but you can get rid of `service.py`
-
-The project contains two models, one named `Department` and another
+The project contains three models, one named `Department`, `Role` and another
 named `Employee`.
 
 Getting started
 ---------------
 
-First you'll need to get the source of the project. Do this by cloning the
-whole Graphene repository:
+First you'll need to get the source of the project. Do this by cloning
+this repository:
 
 ```bash
 # Get the example project code
-git clone https://github.com/graphql-python/graphene-sqlalchemy.git
-cd graphene-sqlalchemy/examples/nameko_sqlalchemy
+git clone https://github.com/nairobi-graphql-meetup/graphql-python-example.git
+cd graphql-python-example
 ```
 
 It is good idea (but not required) to create a virtual environment
@@ -52,3 +49,5 @@ Now the following command will setup the database, and start the server:
 Now head on over to postman and send POST request to:
 [http://127.0.0.1:5000/graphql](http://127.0.0.1:5000/graphql)
 and run some queries!
+
+Adapted from: https://github.com/graphql-python/graphene-sqlalchemy/tree/master/examples/nameko_sqlalchemy
