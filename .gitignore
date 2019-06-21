@@ -13,3 +13,4 @@ dev-notes.md
 venv/
 .tag*
 .ropeproject
+database.sqlite3
